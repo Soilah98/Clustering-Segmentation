@@ -5,7 +5,7 @@ Ce projet réalise une **segmentation de la base clients** basée sur l'analyse 
 L'objectif est d'identifier et de caractériser différents segments de clients pour adapter les stratégies marketing.
 
 ## Dataset 
-- **Source** : Online Retail Dataset (UK, 2010–2011)
+- **Source** : Online Retail Dataset (UK, 2010–2011), disponible [ici](https://archive.ics.uci.edu/dataset/352/online%2Bretail?)
 - **Période** : 1er décembre 2010 – 9 décembre 2011
 - **Contexte** : Transactions e-commerce d'une boutique britannique spécialisée dans les cadeaux
 - **Base client** : Particuliers et grossistes
@@ -86,7 +86,7 @@ L'analyse construit trois indicateurs clés par client :
 
 ```
 
-## Technologies utilisées 🛠️
+## Technologies utilisées 
 - **Python 3.x**
 - **pandas** : Manipulation de données
 - **numpy** : Opérations numériques
@@ -101,12 +101,12 @@ L'analyse construit trois indicateurs clés par client :
   - Clustering K-Means (k=3)
   - Profilage clients et insights marketing
 
-## Installation & Utilisation 🚀
+## Installation & Utilisation 
 
 ```bash
 # Cloner le repository
 git clone https://github.com/Soilah98/Clustering.git
-cd Clustering/Retail
+cd Clustering/1_Segmentation_Client_Retail_Kmeans
 
 # Installer les dépendances
 pip install pandas numpy scikit-learn matplotlib openpyxl
@@ -115,9 +115,8 @@ pip install pandas numpy scikit-learn matplotlib openpyxl
 jupyter notebook notebooks/projet_retail.ipynb
 ```
 
-## Insights clés 💡
-
-✅ **69% du chiffre d'affaires** provient de seulement **18% des clients** (Cluster 2)  
+## Insights clés 
+✅ ** 69% du chiffre d'affaires** provient de seulement **18% des clients** (Cluster 2)  
 ✅ Les clients inactifs (Cluster 0) représentent **43% de la base** mais seulement **8% du CA**  
 ✅ Une **différenciation claire** entre segments permet des stratégies ciblées  
 ✅ La transformation logarithmique a amélioré la robustesse du modèle en normalisant les distributions asymétriques  
@@ -131,11 +130,9 @@ jupyter notebook notebooks/projet_retail.ipynb
 5. **Profilage** : Analyse des caractéristiques des clusters et implications commerciales
 6. **Stratégie** : Développement de recommandations marketing par segment
 
-## Prochaines étapes 📋
+## Prochaines étapes 
 - [ ] Tester d'autres algorithmes de clustering (Hiérarchique, DBSCAN)
-- [ ] Optimiser k avec la Méthode du Coude ou le Score de Silhouette
 - [ ] Modélisation prédictive de l'appartenance aux clusters
-- [ ] Modèles de prédiction de churn pour le Cluster 0
 - [ ] Tests A/B des stratégies marketing par segment
 
 ## Auteur
@@ -143,8 +140,3 @@ jupyter notebook notebooks/projet_retail.ipynb
 
 ## Contexte académique/professionnel
 Projet de segmentation client basé sur une analyse RFM approfondie avec application de techniques d'apprentissage non supervisé.
-
-## Références
-- UCI Machine Learning Repository: Online Retail Dataset
-- Analyse RFM : https://fr.wikipedia.org/wiki/Analyse_RFM
-- Documentation scikit-learn : K-Means Clustering
