@@ -1,19 +1,14 @@
 [project]
-name = "retail"
+name = "extraction-automatique-palette"
 version = "0.1.0"
-description = ""
+description = "Extraction automatique de palette de couleur"
 authors = [
     {name = "Ibrahim Soilahoudine",email = "ibrahimsoilah7@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "scikit-learn (>=1.8.0,<2.0.0)",
-    "openpyxl (>=3.1.5,<4.0.0)"
 ]
-
-[tool.poetry]
-packages = [{include = "retail", from = "src"}]
 
 
 [build-system]
