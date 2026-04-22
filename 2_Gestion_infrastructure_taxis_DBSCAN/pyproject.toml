@@ -1,0 +1,28 @@
+[project]
+name = "gestion-infrastructure"
+version = "0.1.0"
+description = "Gestion infrastructure pour les taxis à Porto"
+authors = [
+    {name = "Ibrahim Soilahoudine",email = "ibrahimsoilah7@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.2,<4.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "pyproj (>=3.7.2,<4.0.0)",
+    "holoviews (>=1.22.1,<2.0.0)",
+    "numpy (>=2.4.4,<3.0.0)",
+    "datashader (>=0.19.0,<0.20.0)",
+    "jupyter-bokeh (>=4.0.5,<5.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.2.0"
+
