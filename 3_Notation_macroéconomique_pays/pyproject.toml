@@ -1,0 +1,26 @@
+[project]
+name = "3-notation-macroéconomique-pays"
+version = "0.1.0"
+description = "Segmenter les pays en fonction des leur situations sociale demographique"
+authors = [
+    {name = "Ibrahim Soilahoudine",email = "ibrahimsoilah7@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.2,<4.0.0)",
+    "numpy (>=2.4.4,<3.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scipy (>=1.17.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.2.0"
+
