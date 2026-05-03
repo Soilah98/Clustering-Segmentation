@@ -1,4 +1,5 @@
 # Clustering : Segmentation Client Retail 
+***69% du chiffre d'affaires généré par 18% des clients — ce projet identifie ces segments et propose des stratégies marketing concrètes pour chacun***
 
 ## Vue d'ensemble
 Ce projet réalise une **segmentation de la base clients** basée sur l'analyse **RFM (Récence, Fréquence, Montant)** combinée à un clustering K-Means.   
@@ -68,6 +69,10 @@ L'analyse construit trois indicateurs clés par client :
 | **VIP (2)** | Maximiser la rétention | Vente additionnelle de produits premium |
 | **Loyaux (1)** | Maintenir l'engagement | Augmenter la fréquence d'achat |
 | **Inactifs (0)** | Réactiver | Comprendre les raisons du désengagement |
+ 
+## Visualisations
+![Distribution](https://github.com/Soilah98/Clustering-Segmentation/tree/main/1_Segmentation_Client_Retail_Kmeans/notebooks/image/Distribution.png)
+![Profil des segments](https://github.com/Soilah98/Clustering-Segmentation/tree/main/1_Segmentation_Client_Retail_Kmeans/notebooks/image/cluster.png)
 
 ## Structure du projet 
 ```
